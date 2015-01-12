@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
+  padding: 3%;
   font:16px/1.5 'Open Sans', Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
@@ -96,7 +96,7 @@ img {
 }
 
 header {
-  width:270px;
+  width: 23%;
   float:left;
   position:fixed;
 }
@@ -159,9 +159,9 @@ header ul a strong {
   color:#222;
 }
 
-section {
-  width:500px;
-  float:right;
+article {
+  width: 70%;
+  padding-left: 30%;
   padding-bottom:50px;
 }
 
@@ -177,7 +177,7 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:23%;
   float:left;
   position:fixed;
   bottom:50px;
@@ -200,7 +200,7 @@ footer {
     padding-right:320px;
   }
   
-  section {
+  article {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
