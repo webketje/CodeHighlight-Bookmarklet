@@ -74,7 +74,16 @@ table {
   width:100%;
   border-collapse:collapse;
 }
-
+.select {
+  position: absolute;
+  z-index: 99;
+  top: 0px;
+  right: 0px;
+  background: white;
+  border: 1px solid grey;
+  padding: 2px 3px;
+  font-size: 12px;
+}
 th, td {
   text-align:left;
   padding:5px 10px;
