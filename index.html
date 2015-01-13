@@ -162,9 +162,9 @@ init();
     <script src="javascripts/scale.fix.js"></script>
     <script type="text/javascript">
     // code select event
-    function selectText(element) {
+    function selectText() {
       var doc = document;
-      var text = element;    
+      var text = this.parentNode.lastChild;    
 
       if (doc.body.createTextRange) { // ms
           var range = doc.body.createTextRange();
