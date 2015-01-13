@@ -29,15 +29,17 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#614F24;
 }
 
 a {
-  color:#39c;
+  color:#C4AE49;
   font-weight:400;
   text-decoration:none;
 }
-
+article a {
+  text-decoration: underline;
+}
 a small {
   font-size:13px;
   color:#777;
@@ -61,7 +63,16 @@ code, pre {
   color:#333;
   font-size:12px;
 }
-
+p code {
+  font-family: Monospace;
+color: #333;
+font-size: 12px;
+background: #FCEFA8;
+padding: 3px;
+border-radius: 5px;
+box-shadow: 1px 1px 0 #614F24;
+vertical-align: 3px;
+}
 pre {
   padding:8px 15px;
   background: #f8f8f8;  
